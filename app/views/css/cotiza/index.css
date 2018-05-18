@@ -1,0 +1,56 @@
+/*		MEDIAS		*/
+@media (max-width: 992px) and (orientation: portrait){
+	form{
+		margin-top: 5%;
+	}
+}
+@media (max-width: 992px) and (orientation: landscape) {
+}
+@media (max-width: 992px) {
+	.effects{
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	section header h1{
+		font-size: 400%;
+	}
+}
+.swiper-slide{
+		display: block;
+		height: 100px;
+		width: 100%;
+		cursor: pointer;
+		cursor: hand;
+	}
+	
+/*	form	*/
+form input,
+form textarea{
+	color: gray;
+	margin: 5px auto;
+	padding: 5px 10px;
+	width: 100%;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+form input:focus,
+form textarea:focus,
+form button:focus{
+	outline: none !important;
+	box-shadow: 0px 0px 5px gray;	
+}
+form button{
+	color: gray;
+	border: 2px solid gray;
+	padding: 10px 15px;
+	background-color: white;
+	border-radius: 3px;
+	transition: all .5s ease;
+}
+form button:hover{
+	background-color: gray;
+	color: white;
+	transition: all .5s ease;
+}
+

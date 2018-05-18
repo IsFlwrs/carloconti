@@ -1,0 +1,28 @@
+/*		MEDIAS		*/
+@media (max-width: 992px) and (orientation: portrait){
+	.cont .padre{
+		margin-top: 10%;
+	}
+}
+@media (max-width: 992px) and (orientation: landscape) {
+}
+@media (max-width: 992px) {
+	.effects{
+		width: 100%;
+	}
+	.cont p{
+		text-indent: 10%;
+		font-size: 20px;
+	}
+}
+@media (min-width: 992px) {
+	section header h1{
+		font-size: 400%;
+	}	
+	.cont{
+		margin-top: -3%;
+	}
+}
+.cont p{
+		text-indent: 10%;
+	}

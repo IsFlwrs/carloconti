@@ -1,0 +1,144 @@
+/*	fonts	*/
+@font-face{
+	font-family: "champage";
+	src: url("../fonts/temp/Champagne&LimousinesBold.ttf");		
+}
+@font-face{
+	font-family: "caviar";
+	src: url("../fonts/temp/CaviarDreams_Bold.ttf");		
+}
+.header,
+.header  a{
+	font-family: "champage";
+}
+.wrapper h1{
+	font-family: "caviar";
+} 
+/*		MEDIAS		*/
+@media (max-width: 992px) and (orientation: portrait){
+	.show-menu{
+		width: 65%;
+	}
+	.link{
+		font-size: 25px;
+	}
+}
+@media (max-width: 992px) and (orientation: landscape) {
+	.show-menu{
+		width: 35%;
+	}
+}
+@media (max-width: 992px) {
+	 .effects{
+	 	width: 100%;
+	 }
+	 /*	header	*/
+	.header{
+		display: block;
+		background-color: white;
+		margin-top: 3%;
+	}
+	header h1{
+		margin-top: 30px;
+	}
+	.ico-menu{
+		z-index: 100;
+		position: fixed;
+		bottom: 10%;
+		right: 10%;
+		background-color: rgb(153, 204, 255);
+		padding: 15px;
+		border-radius: 50%;
+		box-shadow: 3px 3px 20px gray;
+	}
+	.ico-menu:hover{
+		background-color: rgb(89, 172, 255);
+		box-shadow: 3px 3px 20px black;
+	}
+	.show-menu-ico{
+		background-color: rgb(89, 172, 255);
+		box-shadow: 3px 3px 20px black;
+	}
+	.menu-list{
+		background-color: white;
+		display: block;
+		position: fixed;
+		z-index: 90;		
+		top: 0px;
+		left:-100%;
+		padding-top: 30px;
+		width: 50%;
+		transition: all 1s ease;
+	}
+	.show-menu{
+		background-color: #CCCCCC;
+		display: block;
+		position: fixed;
+		z-index: 100;		
+		top: 0px;
+		left:0px;
+		box-shadow: 2px 0px 10px black;
+		transition: all 1s ease;
+	}
+	.menu div{
+	}
+	.menu a{
+		display: inline-block;
+		float: left;
+	    margin: 5px auto;
+	    padding: 5px 0px;
+	    text-align: left;
+	    width: 100%;
+	}
+	.menu{
+		padding: 0;
+	}
+	.menu .active{
+		background-color: #333333;
+	}
+		.menu .active a{
+			color: white;
+		} 
+	.menu div:hover{
+		background-color: #333333;
+		color: white;
+		transition: all .5 ease;
+	}
+	.menu div:hover,
+	.menu div:hover a: hover{
+		background-color: #333333;
+		color: white;
+		transition: all .5 ease;
+	}
+}
+@media (min-width: 992px) {
+	/*	header	*/
+	.ico-menu *{
+		display: none !important;
+	}
+	.header{
+		display: block;
+		background-color: white;
+	}
+	.header img{
+		display: block;
+		max-width: 100%;
+	}
+	.link{
+		display: block;
+    	margin-top: 13%;
+	}
+}
+.padre{
+	display: table;
+}
+.hijo{
+	display: table-cell;
+	vertical-align: middle;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+}
+
+

@@ -1,0 +1,22 @@
+
+/*		MEDIAS		*/
+@media (max-width: 992px) and (orientation: portrait){
+	.swiper-container p{
+		color: white;
+		font-size: 40px;		
+	}
+}
+@media (max-width: 992px) and (orientation: landscape) {
+	.swiper-container p{
+		color: white;
+		font-size: 60px;		
+	}
+}
+@media (max-width: 992px) {	
+}
+@media (min-width: 992px) {
+	.swiper-container p{
+		color: white;
+		font-size: 600%;
+	}
+}
